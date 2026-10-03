@@ -95,7 +95,7 @@ function Index() {
             <div className="absolute -inset-5 border border-spray/70"></div>
             <div className="absolute -right-8 top-8 h-28 w-1 bg-marigold"></div>
             <div className="relative border-[10px] border-ink bg-ink p-2 shadow-[14px_14px_0_var(--spray)]">
-              <img src="/larry-vanroekel.jpeg" alt="Larry VanRoekel" className="aspect-[4/5] w-full object-cover grayscale contrast-125" />
+              <img src="/larry-vanroekel.jpeg" alt="Larry VanRoekel" className="aspect-[4/5] w-full object-cover contrast-110 saturate-110" />
               <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.24em] text-paper/70">A life reclaimed // 01</p>
             </div>
           </div>
