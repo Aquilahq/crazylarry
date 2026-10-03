@@ -57,33 +57,25 @@ function Index() {
       {/* HERO */}
       <section id="top" className="hero-section relative overflow-hidden bg-paper">
         <div className="pointer-events-none absolute inset-0 grain opacity-25 mix-blend-multiply"></div>
-        <div className="hero-portrait pointer-events-none absolute right-[7%] top-24 hidden w-[min(27vw,21rem)] rotate-[5deg] lg:block">
-          <div className="absolute -inset-5 border border-spray/70"></div>
-          <div className="absolute -right-8 top-8 h-28 w-1 bg-marigold"></div>
-          <div className="relative border-[10px] border-ink bg-ink p-2 shadow-[14px_14px_0_var(--spray)]">
-            <img src="/larry-vanroekel.jpeg" alt="" className="aspect-[4/5] w-full object-cover grayscale contrast-125" />
-            <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.24em] text-paper/70">A life reclaimed // 01</p>
-          </div>
-        </div>
         <div className="relative mx-auto max-w-6xl px-5 pb-10 pt-12 md:pb-16 md:pt-16">
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-bold uppercase tracking-[0.2em] text-ink/60">
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs font-bold uppercase tracking-[0.2em] text-ink/60">
             <span className="rounded-full bg-ink px-3 py-1 text-paper">Christian Testimony</span>
             <span className="rounded-full bg-spray px-3 py-1 text-paper">Real Life Change</span>
             <span className="rounded-full bg-grass px-3 py-1 text-paper">Faith &amp; Hope</span>
           </div>
 
-          <h1 className="mt-6 font-display text-[clamp(3.25rem,13vw,9.5rem)] leading-[0.82] tracking-tight text-spray">
+          <h1 className="relative z-10 mt-6 text-center font-display text-[clamp(3.25rem,13vw,9.5rem)] leading-[0.82] tracking-tight text-spray">
             CRAZY
             <br />
             LARRY
           </h1>
 
-          <div className="mt-8 flex flex-wrap items-end justify-start gap-8">
+          <div className="relative z-10 mt-8 flex flex-col items-center justify-start gap-8 text-center">
             <p className="max-w-[42ch] text-pretty text-base text-ink/80 sm:text-lg md:max-w-[38ch]">
               A public testimony of how the Lord changed one man&apos;s life, gave him a new heart,
               and continues to work in his life.
             </p>
-            <div className="flex flex-wrap gap-3 lg:ml-4">
+            <div className="flex flex-wrap justify-center gap-3">
               <a
                 href="#book"
                 className="rounded-full bg-spray px-7 py-3 text-sm font-bold uppercase tracking-wide text-paper ring-1 ring-spray hover:bg-spray/90"
@@ -97,6 +89,21 @@ function Index() {
                 Read the story
               </a>
             </div>
+          </div>
+
+          <div className="hero-portrait relative z-10 mx-auto mt-10 w-[min(80vw,21rem)] rotate-[3deg]">
+            <div className="absolute -inset-5 border border-spray/70"></div>
+            <div className="absolute -right-8 top-8 h-28 w-1 bg-marigold"></div>
+            <div className="relative border-[10px] border-ink bg-ink p-2 shadow-[14px_14px_0_var(--spray)]">
+              <img src="/larry-vanroekel.jpeg" alt="Larry VanRoekel" className="aspect-[4/5] w-full object-cover grayscale contrast-125" />
+              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.24em] text-paper/70">A life reclaimed // 01</p>
+            </div>
+          </div>
+
+          <div className="patch-row mt-8 flex flex-wrap justify-center gap-3" aria-label="Punk patches">
+            <span className="patch patch-red">NO SAINTS</span>
+            <span className="patch patch-black">JUST GRACE</span>
+            <span className="patch patch-yellow">5150 ANGEL</span>
           </div>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2">

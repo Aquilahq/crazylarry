@@ -109,6 +109,25 @@
   pointer-events: none;
 }
 
+.patch {
+  display: inline-block;
+  border: 2px solid var(--ink);
+  border-radius: 0.2rem;
+  padding: 0.55rem 0.9rem;
+  box-shadow: 3px 3px 0 var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+}
+
+.patch-black { background: var(--ink); color: var(--paper); transform: rotate(2deg); }
+.patch-red { background: var(--spray); color: var(--paper); }
+.patch-yellow { background: var(--marigold); color: var(--ink); transform: rotate(-4deg); }
+
 .ticker {
   overflow: hidden;
   transform: rotate(-1deg) scale(1.02);
