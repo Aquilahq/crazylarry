@@ -78,12 +78,12 @@ function Index() {
             LARRY
           </h1>
 
-          <div className="mt-8 flex flex-wrap items-end justify-between gap-8">
+          <div className="mt-8 flex flex-wrap items-end justify-start gap-8">
             <p className="max-w-[42ch] text-pretty text-base text-ink/80 sm:text-lg md:max-w-[38ch]">
               A public testimony of how the Lord changed one man&apos;s life, gave him a new heart,
               and continues to work in his life.
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 lg:ml-4">
               <a
                 href="#book"
                 className="rounded-full bg-spray px-7 py-3 text-sm font-bold uppercase tracking-wide text-paper ring-1 ring-spray hover:bg-spray/90"
