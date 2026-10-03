@@ -78,13 +78,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Crazy Larry Ministry — Aquila" },
+      { title: "LOUDLARRY Ministry — Aquila" },
       {
         name: "description",
-        content: "Crazy Larry Ministry shares the publicly documented Christian testimony of Larry L. VanRoekel.",
+        content: "LOUDLARRY Ministry shares the publicly documented Christian testimony of Larry L. VanRoekel.",
       },
       { name: "author", content: "Aquila" },
-      { property: "og:title", content: "Crazy Larry Ministry — Aquila" },
+      { property: "og:title", content: "LOUDLARRY Ministry — Aquila" },
       {
         property: "og:description",
         content: "Aquila presents the Christian testimony of Larry L. VanRoekel.",

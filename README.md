@@ -1,6 +1,6 @@
-# Crazy Larry Ministry
+# LOUDLARRY Ministry
 
-The official Crazy Larry Ministry website, presented by Aquila.
+The official LOUDLARRY Ministry website, presented by Aquila.
 
 ## Development
 

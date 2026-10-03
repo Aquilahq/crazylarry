@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Crazy Larry Ministry — Larry L. VanRoekel" },
+      { title: "LOUDLARRY Ministry — Larry L. VanRoekel" },
       {
         name: "description",
         content:
-          "Crazy Larry Ministry shares the publicly documented Christian testimony of Larry L. VanRoekel.",
+          "LOUDLARRY Ministry shares the publicly documented Christian testimony of Larry L. VanRoekel.",
       },
-      { property: "og:title", content: "Crazy Larry Ministry — Larry L. VanRoekel" },
+      { property: "og:title", content: "LOUDLARRY Ministry — Larry L. VanRoekel" },
       {
         property: "og:description",
         content:
@@ -32,7 +32,7 @@ function Index() {
             <span className="grid size-8 shrink-0 place-items-center border border-marigold bg-spray text-sm font-bold text-paper shadow-[3px_3px_0_var(--marigold)]">
               CL
             </span>
-            <span className="font-display text-lg tracking-tight text-paper">CRAZY LARRY</span>
+            <span className="font-display text-lg tracking-tight text-paper">LOUDLARRY</span>
           </a>
           <nav className="hidden items-center gap-7 text-sm font-semibold uppercase tracking-wide text-paper/80 md:flex">
             <a href="#story" className="hover:text-marigold">
@@ -65,7 +65,7 @@ function Index() {
           </div>
 
           <h1 className="relative z-10 mt-6 text-center font-display text-[clamp(3.25rem,13vw,9.5rem)] leading-[0.82] tracking-tight text-spray">
-            CRAZY
+            LOUD
             <br />
             LARRY
           </h1>
@@ -262,7 +262,7 @@ function Index() {
       <footer className="bg-ink text-paper">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 px-5 py-10">
           <div>
-            <p className="font-display text-2xl uppercase tracking-tight">Crazy Larry Ministry</p>
+            <p className="font-display text-2xl uppercase tracking-tight">LOUDLARRY Ministry</p>
             <p className="mt-1 font-mono text-xs uppercase tracking-widest text-paper/60">
               Recovery isn't pretty. It's honest.
             </p>
