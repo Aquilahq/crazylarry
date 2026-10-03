@@ -162,19 +162,12 @@ function Index() {
 
           <div className="mt-10 flex flex-col gap-10 md:flex-row">
             <div
-              className="relative shrink-0 bg-marigold p-4 outline-1 -outline-offset-1 outline-black/10"
+              className="relative flex aspect-[4/5] w-64 shrink-0 flex-col justify-between overflow-hidden bg-marigold p-6 text-ink outline-1 -outline-offset-1 outline-black/10"
               style={{ transform: "rotate(-1deg)" }}
             >
-              <img
-                src="/larry-vanroekel.jpeg"
-                alt="Larry VanRoekel in a leather jacket at sunset"
-                width={800}
-                height={1008}
-                className="aspect-[4/5] w-64 object-cover outline-1 -outline-offset-1 outline-black/5"
-              />
-              <span className="absolute -bottom-2 left-6 rounded-full bg-spray px-3 py-1 font-mono text-xs uppercase tracking-widest text-paper">
-                Larry V.
-              </span>
+              <span className="font-mono text-xs font-bold uppercase tracking-[0.2em]">Testimony / 01</span>
+              <p className="font-display text-5xl uppercase leading-[0.82]">A new<br />heart.</p>
+              <span className="border-t-2 border-ink pt-3 font-mono text-xs uppercase tracking-widest">Road tested // Grace carried</span>
             </div>
 
             <div id="bio" className="max-w-[46ch] text-pretty">
