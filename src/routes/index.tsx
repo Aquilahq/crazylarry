@@ -26,10 +26,10 @@ function Index() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-paper font-body text-ink antialiased selection:bg-marigold selection:text-ink">
       {/* NAV */}
-      <header className="sticky top-0 z-50 bg-ink ring-1 ring-black/10">
+      <header className="sticky top-0 z-50 border-b border-paper/10 bg-ink ring-1 ring-black/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
           <a href="#top" className="flex items-center gap-2">
-            <span className="grid size-8 shrink-0 place-items-center rounded-full bg-spray text-sm font-bold text-paper">
+            <span className="grid size-8 shrink-0 place-items-center border border-marigold bg-spray text-sm font-bold text-paper shadow-[3px_3px_0_var(--marigold)]">
               CL
             </span>
             <span className="font-display text-lg tracking-tight text-paper">CRAZY LARRY</span>
@@ -55,8 +55,16 @@ function Index() {
       </header>
 
       {/* HERO */}
-      <section id="top" className="relative overflow-hidden bg-paper">
+      <section id="top" className="hero-section relative overflow-hidden bg-paper">
         <div className="pointer-events-none absolute inset-0 grain opacity-25 mix-blend-multiply"></div>
+        <div className="hero-portrait pointer-events-none absolute right-[7%] top-24 hidden w-[min(27vw,21rem)] rotate-[5deg] lg:block">
+          <div className="absolute -inset-5 border border-spray/70"></div>
+          <div className="absolute -right-8 top-8 h-28 w-1 bg-marigold"></div>
+          <div className="relative border-[10px] border-ink bg-ink p-2 shadow-[14px_14px_0_var(--spray)]">
+            <img src="/larry-vanroekel.jpeg" alt="" className="aspect-[4/5] w-full object-cover grayscale contrast-125" />
+            <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.24em] text-paper/70">A life reclaimed // 01</p>
+          </div>
+        </div>
         <div className="relative mx-auto max-w-6xl px-5 pb-10 pt-12 md:pb-16 md:pt-16">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-bold uppercase tracking-[0.2em] text-ink/60">
             <span className="rounded-full bg-ink px-3 py-1 text-paper">Christian Testimony</span>
@@ -125,6 +133,11 @@ function Index() {
                 className="absolute -top-3 right-8 h-6 w-24 bg-paper/70 outline-1 -outline-offset-1 outline-black/5"
                 style={{ transform: "rotate(-3deg)" }}
               ></span>
+            </div>
+          </div>
+          <div className="ticker mt-14 -mx-5 border-y-2 border-ink bg-spray py-3 text-ink">
+            <div className="ticker-track font-display text-2xl uppercase tracking-wide">
+              No easy fixes&nbsp; // &nbsp;Only grace&nbsp; // &nbsp;A new heart&nbsp; // &nbsp;No easy fixes&nbsp; // &nbsp;Only grace&nbsp; // &nbsp;A new heart&nbsp; // &nbsp;
             </div>
           </div>
         </div>
