@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Megaphone } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -29,8 +30,8 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-paper/10 bg-ink ring-1 ring-black/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
           <a href="#top" className="flex items-center gap-2">
-            <span className="grid size-8 shrink-0 place-items-center border border-marigold bg-spray text-sm font-bold text-paper shadow-[3px_3px_0_var(--marigold)]">
-              CL
+            <span className="grid size-8 shrink-0 place-items-center border border-marigold bg-spray text-paper shadow-[3px_3px_0_var(--marigold)]" aria-label="LOUDLARRY megaphone logo">
+              <Megaphone size={18} strokeWidth={2.5} aria-hidden="true" />
             </span>
             <span className="font-display text-lg tracking-tight text-paper">LOUDLARRY</span>
           </a>
