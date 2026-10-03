@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import larryPortraitAsset from "@/assets/larry-vanroekel.jpg.asset.json";
+import larryPortrait from "@/assets/larry-portrait.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -147,7 +147,7 @@ function Index() {
               style={{ transform: "rotate(-1deg)" }}
             >
               <img
-                src={larryPortraitAsset.url}
+                src={larryPortrait}
                 alt="Larry VanRoekel in a leather jacket at sunset"
                 width={800}
                 height={1008}
