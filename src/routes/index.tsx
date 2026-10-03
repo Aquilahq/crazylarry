@@ -101,8 +101,8 @@ function Index() {
           </div>
 
           <div className="patch-row mt-8 flex flex-wrap justify-center gap-3" aria-label="Punk patches">
-            <span className="patch patch-red">NO SAINTS</span>
-            <span className="patch patch-black">JUST GRACE</span>
+            <span className="patch patch-red">ROAD TESTED</span>
+            <span className="patch patch-black">RIDE FOR GRACE</span>
             <span className="patch patch-yellow">5150 ANGEL</span>
           </div>
 
