@@ -204,7 +204,7 @@ function Index() {
           <div className="mx-auto mb-10 max-w-3xl border-2 border-ink bg-ink p-7 text-paper shadow-[8px_8px_0_var(--spray)] md:p-10">
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-marigold">LOUDLARRY / THE BOOK</p>
             <div className="mt-3 flex flex-wrap items-end justify-between gap-5">
-              <h2 className="font-display text-5xl uppercase leading-none text-paper sm:text-7xl">A New<br />Heart</h2>
+              <h2 className="font-display text-5xl uppercase leading-none text-paper sm:text-7xl">Lost<br />&amp; Searching</h2>
               <span className="patch patch-red rotate-3">Coming Soon</span>
             </div>
             <p className="mt-5 max-w-[48ch] text-base leading-relaxed text-paper/75">
