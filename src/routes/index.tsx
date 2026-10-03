@@ -42,15 +42,15 @@ function Index() {
             <a href="#bio" className="hover:text-marigold">
               Larry
             </a>
-            <a href="#speaking" className="hover:text-marigold">
-              Speaking
+            <a href="#book" className="hover:text-marigold">
+              The Book
             </a>
           </nav>
           <a
             href="#book"
             className="rounded-full bg-marigold px-5 py-2 text-sm font-bold uppercase tracking-wide text-ink ring-1 ring-marigold hover:bg-marigold/85"
           >
-            Book Larry
+            The Book
           </a>
         </div>
       </header>
@@ -201,6 +201,16 @@ function Index() {
       <section id="book" className="relative overflow-hidden bg-marigold">
         <div className="pointer-events-none absolute inset-0 grain opacity-20 mix-blend-multiply"></div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 md:py-24">
+          <div className="mx-auto mb-10 max-w-3xl border-2 border-ink bg-ink p-7 text-paper shadow-[8px_8px_0_var(--spray)] md:p-10">
+            <p className="font-mono text-xs uppercase tracking-[0.25em] text-marigold">LOUDLARRY / THE BOOK</p>
+            <div className="mt-3 flex flex-wrap items-end justify-between gap-5">
+              <h2 className="font-display text-5xl uppercase leading-none text-paper sm:text-7xl">A New<br />Heart</h2>
+              <span className="patch patch-red rotate-3">Coming Soon</span>
+            </div>
+            <p className="mt-5 max-w-[48ch] text-base leading-relaxed text-paper/75">
+              Larry&apos;s testimony is being shaped into a book about redemption, faith, and the road from darkness into hope.
+            </p>
+          </div>
           <div
             id="speaking"
             className="mx-auto max-w-3xl border-2 border-ink bg-paper p-6 outline-1 -outline-offset-1 outline-black/10 md:p-10"
